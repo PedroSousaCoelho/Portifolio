@@ -16,13 +16,13 @@ export default function Home() {
         <meta name = "desciption"></meta>
       </Head>
     
-      <main className='bg-white px-10 '> 
+      <main className='bg-blue-300 px-10 '> 
         <section class = "min-h-screen">
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl'>developebyPedro</h1>
               <ul className='flex items-center'>
                 <li><BsFillMoonStarsFill className='cursor-pointer text-2xl'/></li>
-                <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a></li>
+                <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2'>Resume</a></li>
               </ul>
             </nav>
             <div className='text-center p-10 py-10'>
@@ -41,8 +41,8 @@ export default function Home() {
         </section>
 
         <section>
-          <div>
-            <h3 className='text-3xl py-1'>Serviços</h3>
+          <div className='text-center'>
+            <h3 className='text-3xl py-10'>Serviços</h3>
             <p className='text-md py-2 leading-8 text-gray-80'>
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
             </p>
@@ -51,11 +51,47 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div>
-              <Image src={consulting}/>
-              <Image src={design}/>
-              <Image src={code}/> 
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={consulting} width={100} height={100}/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Design Topzera</h3>
+              <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur laboriosam impedit tempore atque nemo provident debitis commodi, natus magnam velit explicabo sint itaque recusandae? Enim, atque. Officiis, nobis dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid ipsa consequuntur fuga modi veritatis excepturi consequatur repudiandae, exercitationem porro iste quam, possimus saepe! Quia sed blanditiis ipsa impedit cumque.</p>
+              <h4 className='py-4 text-teal-600'>Design tools</h4>
+              <p className='text-grey-800 py-1'>1</p>
+              <p className='text-grey-800 py-1'>2</p>
+              <p className='text-grey-800 py-1'>3</p>
+              <p className='text-grey-800 py-1'>4</p>
             </div>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design}width={100} height={100}/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Design Topzera</h3>
+              <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde id quasi nihil a illum suscipit? Ipsam mollitia ad accusamus aperiam pariatur, esse dignissimos minus unde inventore sed, suscipit perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium et eos error ipsa molestias, in officia commodi consequatur sunt provident doloribus dolore tenetur explicabo eum blanditiis fuga natus veritatis distinctio!</p>
+              <h4 className='py-4 text-teal-600'>Design tools</h4>
+              <p className='text-grey-800 py-1'>1</p>
+              <p className='text-grey-800 py-1'>2</p>
+              <p className='text-grey-800 py-1'>3</p>
+              <p className='text-grey-800 py-1'>4</p>
+            </div>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <Image src={code} width={100} height={100}/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Design Topzera</h3>
+              <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestiae soluta suscipit ullam minus reiciendis corporis nemo laboriosam id tenetur! Error animi voluptate autem itaque, aut voluptates eaque illo similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dicta iste corporis commodi qui vel rerum est, non ut veritatis, corrupti deleniti sunt veniam explicabo quae architecto quo debitis ex!</p>
+              <h4 className='py-4 text-teal-600'>Design tools</h4>
+              <p className='text-grey-800 py-1'>1</p>
+              <p className='text-grey-800 py-1'>2</p>
+              <p className='text-grey-800 py-1'>3</p>
+              <p className='text-grey-800 py-1'>4</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='text-3xl py-1 text-center'>Portifolio</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus, et rerum quae, ducimus in molestias similique placeat repudiandae, voluptas dolores dolorum ipsum nesciunt atque dolore aperiam tempore dicta quidem.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet quidem nostrum eius cum provident adipisci velit laboriosam expedita saepe corporis ad neque odit quod officia reiciendis, incidunt fugiat ipsa!
+            </p>
+          
           </div>
         </section>
       </main>
