@@ -21,26 +21,26 @@ export default function Home() {
         <meta name = "desciption"></meta>
       </Head>
     
-      <main className='bg-blue-300 px-10 '> 
+      <main className='bg-white px-10 md:px-20 lg:px-40'> 
         <section class = "min-h-screen">
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl'>developebyPedro</h1>
               <ul className='flex items-center'>
                 <li><BsFillMoonStarsFill className='cursor-pointer text-2xl'/></li>
-                <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2'>Resume</a></li>
+                <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5'>Resume</a></li>
               </ul>
             </nav>
             <div className='text-center p-10 py-10'>
-              <h2 className='text-5xl py-2 text-blue-500 font-media'>Pedro Sousa Coelho</h2>
-              <h3 className='text-2xl py-2'>Desenvolvedor WEB3</h3>
-              <p className='text-md py-5 leading-8 text-gray-800'>Entre em contato através das redes sociais.</p>
+              <h2 className='text-5xl py-2 text-blue-500 font-medium md:text-6xl'>Pedro Sousa Coelho</h2>
+              <h3 className='text-2xl py-2 md:text-3xl'>Desenvolvedor WEB3</h3>
+              <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Entre em contato através das redes sociais.</p>
             </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
               <a href="https://twitter.com/pedrosousac"><AiFillTwitterCircle /></a> 
               <a href="https://www.linkedin.com/in/pedrosousacoelhooo/"><AiFillLinkedin /></a>
               <a href="https://www.instagram.com/pedrosousa.c/"><AiFillInstagram /></a>
             </div>
-            <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+            <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
               <Image src={pedro} layout="fill" objectFit="cover"/>
             </div>
         </section>
@@ -96,7 +96,14 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus, et rerum quae, ducimus in molestias similique placeat repudiandae, voluptas dolores dolorum ipsum nesciunt atque dolore aperiam tempore dicta quidem.
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet quidem nostrum eius cum provident adipisci velit laboriosam expedita saepe corporis ad neque odit quod officia reiciendis, incidunt fugiat ipsa!
             </p>
-          
+          </div>
+          <div>
+            <div><Image src={web1}/></div>
+            <div><Image src={web2}/></div>
+            <div><Image src={web3}/></div>
+            <div><Image src={web4}/></div>
+            <div><Image src={web5}/></div>
+            <div><Image src={web6}/></div>
           </div>
         </section>
       </main>
