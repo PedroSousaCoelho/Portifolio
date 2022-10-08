@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram} from 'react-icons/a\i';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram, AiFillGitHub} from 'react-icons/a\i';
 import Image from 'next/image/';
 import pedro from "../public/Pedro.png";
 import design from "../public/design.png";
