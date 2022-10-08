@@ -12,6 +12,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import calculadora from "../public/calculadora.png";
 import { useState } from 'react';
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-black'> 
         <section class = "min-h-screen">
             <nav className='py-10 mb-12 flex justify-between'>
-              <h1 className='text-xl dark:text-white'>developebyPedro</h1>
+              <h1 className='text-xl italic dark:text-white'>developebyPedro</h1>
               <ul className='flex items-center'>
                 <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}  className='cursor-pointer text-2xl dark:bg-white'/></li>
                 <li><a href="https://drive.google.com/file/d/1-4lW42JbuImUujRbAr0nzWDJ2d8KeqxB/view?usp=sharing" target="_blank" rel="noreferrer" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5'>Curriculo</a></li>
@@ -100,7 +101,7 @@ export default function Home() {
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web1}/></div>
+            <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={calculadora}/></div>
             <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web2}/></div>
             <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web3}/></div>
             <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web4}/></div>
