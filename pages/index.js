@@ -42,6 +42,7 @@ export default function Home() {
               <a href="https://twitter.com/pedrosousac"><AiFillTwitterCircle /></a> 
               <a href="https://www.linkedin.com/in/pedrosousacoelhooo/"><AiFillLinkedin /></a>
               <a href="https://www.instagram.com/pedrosousa.c/"><AiFillInstagram /></a>
+              <a href='https://github.com/PedroSousaCoelho'><AiFillGitHub /></a>
             </div>
             <div className='relative mx-auto bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
               <Image src={pedro} layout="fill" objectFit="cover"/>
