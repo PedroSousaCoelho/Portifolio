@@ -52,7 +52,7 @@ export default function Home() {
           <div className='text-center dark:text-white' >
             <h3 className='text-3xl py-10'>Serviços</h3>
             <p className='text-md py-2 leading-8 text-gray-80'>
-              bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                Desenvolvimento web voltado   
             </p>
             <p className='text-md py-2 leading-8 text-gray-80'>
               bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
