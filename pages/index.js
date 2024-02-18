@@ -2,19 +2,13 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram} from 'react-icons/a\i';
 import Image from 'next/image/';
-import pedro from "../public/Pedro.png";
+import pedro from "../public/eu.jpg";
 import design from "../public/design.png";
-import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import calculadora from "../public/calculadora.png";
-import imc from "../public/imc1.png"
-import port from "../public/port.png"
+import idalina from "../public/Idalina.png";
+import Notion from "../public/Notion.png";
+import pokedex from "../public/Pokedex.png";
 import { useState } from 'react';
 
 export default function Home() {
@@ -38,7 +32,11 @@ export default function Home() {
             <div className='text-center p-10 py-10'>
               <h2 className='text-5xl py-2 text-blue-500 font-medium md:text-6xl'>Pedro Sousa Coelho</h2>
               <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Desenvolvedor Web Full Stack</h3>
-              <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>Olá, meu nome e Pedro</p>
+              <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xg mx-auto dark:text-white'>
+              Sou um profissional de TI com experiência consolidada, buscando oportunidades para
+              crescimento contínuo. Motivado, com facilidade de aprendizado, destaco-me por ser 
+              eficiente no trabalho em equipe, comunicativo e dedicado a sempre alcançar os melhores resultados.
+              </p>
             </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
               <a href="https://twitter.com/pedrosousac"><AiFillTwitterCircle /></a> 
@@ -54,61 +52,46 @@ export default function Home() {
           <div className='text-center dark:text-white' >
             <h3 className='text-3xl py-10'>Serviços</h3>
             <p className='text-md py-2 leading-8 text-gray-80'>
-                Desenvolvimento web voltado   
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-80'>
-              bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+            Busco minha primeira oportunidade como desenvolvedor backend, trazendo habilidades em React.js, Node.js e PHP. Estou atualmente cursando o quinto período de Sistema de Informação na Faculdade Estadual de Goiás e estou ansioso para aplicar meu conhecimento em um ambiente profissional.
             </p>
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300 '>
               <Image src={consulting} width={100} height={100}/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Design Topzera</h3>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur laboriosam impedit tempore atque nemo provident debitis commodi, natus magnam velit explicabo sint itaque recusandae? Enim, atque. Officiis, nobis dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid ipsa consequuntur fuga modi veritatis excepturi consequatur repudiandae, exercitationem porro iste quam, possimus saepe! Quia sed blanditiis ipsa impedit cumque.</p>
-              <h4 className='py-4 text-teal-600'>Design tools</h4>
-              <p className='text-grey-800 py-1'>1</p>
-              <p className='text-grey-800 py-1'>2</p>
-              <p className='text-grey-800 py-1'>3</p>
-              <p className='text-grey-800 py-1'>4</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Tecnologias e Linguagens</h3>
+              <p className='py-2'>Tenho experiência prática em PHP, Node.js, React , JavaScript e TypeScri, aplicando essas habilidades no desenvolvimento de soluções eficientes. Minha proficiência abrange a criação de aplicações web dinâmicas com PHP, servidores escaláveis com Node.js, e interfaces interativas utilizando React e JavaScript.</p>
+              <h4 className='py-4 text-teal-600'>Conhecimento:</h4>
+              <p className='text-grey-800 py-1'>Git/ GitHub</p>
+              <p className='text-grey-800 py-1'>MySQL/ MariaDB</p>
+              <p className='text-grey-800 py-1'>PowerShell</p>
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300'>
               <Image src={design}width={100} height={100}/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Design Topzera</h3>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde id quasi nihil a illum suscipit? Ipsam mollitia ad accusamus aperiam pariatur, esse dignissimos minus unde inventore sed, suscipit perferendis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium et eos error ipsa molestias, in officia commodi consequatur sunt provident doloribus dolore tenetur explicabo eum blanditiis fuga natus veritatis distinctio!</p>
-              <h4 className='py-4 text-teal-600'>Design tools</h4>
-              <p className='text-grey-800 py-1'>1</p>
-              <p className='text-grey-800 py-1'>2</p>
-              <p className='text-grey-800 py-1'>3</p>
-              <p className='text-grey-800 py-1'>4</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Habilidade técnica</h3>
+              <p className='py-2'>Sou uma pessoa altamente motivada, caracterizada por uma capacidade natural de aprendizado rápido. Estou comprometido com meu crescimento profissional, buscando constantemente oportunidades para aprimorar minhas habilidades e contribuir de maneira significativa para os desafios que enfrento.</p>
+              <h4 className='py-4 text-teal-600'>Qualidades</h4>
+              <p className='text-grey-800 py-1'>Suporte em gestão de mudança.</p>
+              <p className='text-grey-800 py-1'>Gestão de serviços de T.I</p>
+              <p className='text-grey-800 py-1'>Elaboração de relatorios.</p>
+              <p className='text-grey-800 py-1'>Resolução de problemas</p>
+              <p className='text-grey-800 py-1'>Comunicação Agil.</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300'>
-            <Image src={code} width={100} height={100}/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Design Topzera</h3>
-              <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestiae soluta suscipit ullam minus reiciendis corporis nemo laboriosam id tenetur! Error animi voluptate autem itaque, aut voluptates eaque illo similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dicta iste corporis commodi qui vel rerum est, non ut veritatis, corrupti deleniti sunt veniam explicabo quae architecto quo debitis ex!</p>
-              <h4 className='py-4 text-teal-600'>Design tools</h4>
-              <p className='text-grey-800 py-1'>1</p>
-              <p className='text-grey-800 py-1'>2</p>
-              <p className='text-grey-800 py-1'>3</p>
-              <p className='text-grey-800 py-1'>4</p>
-            </div>
           </div>
         </section>
         <section>
           <div className='dark:text-white'>
-            <h3 className='text-3xl py-1 text-center '>Portifolio</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus, et rerum quae, ducimus in molestias similique placeat repudiandae, voluptas dolores dolorum ipsum nesciunt atque dolore aperiam tempore dicta quidem.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet quidem nostrum eius cum provident adipisci velit laboriosam expedita saepe corporis ad neque odit quod officia reiciendis, incidunt fugiat ipsa!
-            </p>
+            <h3 className='text-3xl py-1 text-center '>Alguns dos meus trabalhos:</h3>
+            <p>
+Ao longo do meu aprendizado diário, tenho trabalhado em projetos que não apenas fortalecem minhas habilidades técnicas, mas também refletem meu compromisso com a excelência. Essas experiências têm sido fundamentais para meu crescimento, proporcionando-me oportunidades valiosas de aplicar e aprimorar o conhecimento adquirido. Cada projeto representa um passo significativo em minha jornada de aprendizado constante.</p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className="basis-1/3 flex-1"><a href='https://pedrosousacoelho.github.io/calculadora/'><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={calculadora}/></a></div>
-            <div className="basis-1/3 flex-1"><a href='https://pedrosousacoelho.github.io/Formulario/'><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={port}/></a></div>
-            <div className="basis-1/3 flex-1"><a href='https://pedrosousacoelho.github.io/imc/'><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={imc}/></a></div>
-            <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web4}/></div>
-            <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web5}/></div>
-            <div className="basis-1/3 flex-1"><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web6}/></div>
+            <div className="basis-1/3 flex-1"><a href='https://www.idalinagusmaoatelier.com/'><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={idalina}/></a></div>
+            <div className="basis-1/3 flex-1"><a href='notion-sage-kappa.vercel.app'><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={Notion}/></a></div>
+            <div className="basis-1/3 flex-1"><a href='pokedex-iota-black.vercel.app'><Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={pokedex}/></a></div>
+            
           </div>
         </section>
       </main>
